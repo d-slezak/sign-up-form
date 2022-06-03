@@ -86,18 +86,27 @@ margin: 0;
     flex-direction: column;
 }
 
+.input input:focus{
+    border-color: lightblue;
+    box-shadow: 0px 10px lightgrey;
+}
+
+.passError{
+    border-color: red;
+}
+
 .submit{
     padding: 20px;
 }
 
 button {
-    background-color: rgb(51, 153, 102);
+    background-color: #596D48;
     color: white;
 
     padding: 10px 50px;
-    border-radius: 12%;
+    border-radius: 0.8rem;
 }
 
 a{
-    color: rgb(51, 153, 102);
+    color: #596D48;
 }
